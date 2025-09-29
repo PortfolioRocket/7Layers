@@ -1,0 +1,19 @@
+{
+  "title": "7 Levels Deep Exercise",
+  "description": "I first discovered this exercise ...",
+  "pages": [
+    {
+      "name": "7 Layers",
+      "title": "7 Levels Deep Exercise",
+      "elements": [
+        { "type": "text", "name": "Name", "title": "Name", "isRequired": true },
+        { "type": "comment", "name": "Level 1", "title": "LEVEL 1 | What is important to you about becoming successful?", "isRequired": true },
+        { "type": "comment", "name": "Level 2", "title": "LEVEL 2 | Why is it important for you to _______?", "isRequired": true }
+        // …continue your Level 3–7 items…
+      ]
+    }
+  ],
+  "showProgressBar": true,
+  "widthMode": "responsive",
+  "headerView": "advanced"
+}
