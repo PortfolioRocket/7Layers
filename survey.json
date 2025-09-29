@@ -1,15 +1,60 @@
-{
+export const json = {
   "title": "7 Levels Deep Exercise",
-  "description": "I first discovered this exercise ...",
+  "description": "I first discovered this exercise when consulting with a man named Joe Stump, who used this method with his high-level clients. By going through all seven levels, you’ll uncover your true “why,” which will be the driving force that allows you to accomplish anything in life.",
+  "logo": "https://api.surveyjs.io/private/Surveys/files?name=1865eb61-8800-4938-a244-fa1b6a110262",
   "pages": [
     {
       "name": "7 Layers",
       "title": "7 Levels Deep Exercise",
       "elements": [
-        { "type": "text", "name": "Name", "title": "Name", "isRequired": true },
-        { "type": "comment", "name": "Level 1", "title": "LEVEL 1 | What is important to you about becoming successful?", "isRequired": true },
-        { "type": "comment", "name": "Level 2", "title": "LEVEL 2 | Why is it important for you to _______?", "isRequired": true }
-        // …continue your Level 3–7 items…
+        {
+          "type": "text",
+          "name": "question8",
+          "title": "Name",
+          "isRequired": true
+        },
+        {
+          "type": "comment",
+          "name": "question1",
+          "title": "LEVEL 1 |  What is important to you about becoming successful?",
+          "isRequired": true
+        },
+        {
+          "type": "comment",
+          "name": "question2",
+          "title": "LEVEL 2 | Why is it important for you to _____________________? (enter your answer from above box here)",
+          "isRequired": true
+        },
+        {
+          "type": "comment",
+          "name": "question3",
+          "title": "LEVEL 3 | Why is it important for you to _____________________? (enter your answer from above box here)",
+          "isRequired": true
+        },
+        {
+          "type": "comment",
+          "name": "question4",
+          "title": "LEVE 4 | Why is it important for you to _____________________? (enter your answer from above box here)",
+          "isRequired": true
+        },
+        {
+          "type": "comment",
+          "name": "question5",
+          "title": "LEVE 5 | Why is it important for you to _____________________? (enter your answer from above box here)",
+          "isRequired": true
+        },
+        {
+          "type": "comment",
+          "name": "question6",
+          "title": "LEVE 6 | Specifically why is it important for you to _____________________? (Enter your answer from the above box here.)",
+          "isRequired": true
+        },
+        {
+          "type": "text",
+          "name": "question7",
+          "title": "LEVEL 7 | Why is it important for you to _____________________? (enter your answer from above box here)",
+          "isRequired": true
+        }
       ]
     }
   ],
